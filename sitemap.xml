@@ -2,51 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://smigle-hugo-theme.netlify.app/</loc>
+    <loc>https://hurricance.github.io/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/categories/</loc>
+    <loc>https://hurricance.github.io/categories/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/tags/css/</loc>
+    <loc>https://hurricance.github.io/tags/css/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/tags/html/</loc>
+    <loc>https://hurricance.github.io/tags/html/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/tags/markdown/</loc>
+    <loc>https://hurricance.github.io/tags/markdown/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/posts/markdown-syntax/</loc>
+    <loc>https://hurricance.github.io/posts/markdown-syntax/</loc>
     <lastmod>2021-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/posts/</loc>
+    <loc>https://hurricance.github.io/posts/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/categories/syntax/</loc>
+    <loc>https://hurricance.github.io/categories/syntax/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/tags/</loc>
+    <loc>https://hurricance.github.io/tags/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/tags/emoji/</loc>
+    <loc>https://hurricance.github.io/tags/emoji/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/posts/emoji-support/</loc>
+    <loc>https://hurricance.github.io/posts/emoji-support/</loc>
     <lastmod>2021-08-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/posts/math-typesetting/</loc>
+    <loc>https://hurricance.github.io/posts/math-typesetting/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/posts/placeholder-text/</loc>
+    <loc>https://hurricance.github.io/posts/placeholder-text/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/tags/text/</loc>
+    <loc>https://hurricance.github.io/tags/text/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/categories/uncategorized/</loc>
+    <loc>https://hurricance.github.io/categories/uncategorized/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://smigle-hugo-theme.netlify.app/about/</loc>
+    <loc>https://hurricance.github.io/about/</loc>
   </url>
 </urlset>
