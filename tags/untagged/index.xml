@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Untagged on Hurricance</title>
+    <link>//localhost:1313/tags/untagged/</link>
+    <description>Recent content in Untagged on Hurricance</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>//localhost:1313/posts/first-post/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/first-post/</guid>
+      <description>&lt;p&gt;新开通博客&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
