@@ -6,6 +6,14 @@
     <description>Recent content in Categories on Hurricance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hurricance.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Thoughts</title>
+      <link>https://hurricance.github.io/categories/personal-thoughts/</link>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hurricance.github.io/categories/personal-thoughts/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
