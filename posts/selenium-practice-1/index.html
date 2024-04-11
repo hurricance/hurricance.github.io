@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<meta name="generator" content="Hugo 0.124.1">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta
@@ -10,7 +9,7 @@
   />
   
     
-      <title>Hurricance</title>
+      <title>Selenium实践 - 01 | Hurricance</title>
     
   
   <link rel="stylesheet" href="/css/reset.css"/>
@@ -63,28 +62,11 @@
 
       <div id="content">
         
-	<main>
-		
-		
-			<article class="summary">
-  <a href="https://hurricance.github.io/posts/selenium-practice-1/">
-    <h1 class="title">Selenium实践 - 01</h1>
-    
-  </a>
-  
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="post-meta">
+  <main>
+    <article>
+      <h1 class="title">Selenium实践 - 01</h1>
+      
+      <div class="post-meta">
   <strong>
     <span>Posted on</span>
     <time>2024-04-11</time>
@@ -92,8 +74,9 @@
     
       <a href="/categories/software-test">software-test</a>
   </strong>
- <span> • 81 words</span>
- <span> • 1 minute read</span>
+  <span> • 81 words</span>
+  <span> • 1 minute read</span>
+  
   
     <div>
       <span>Tags:</span>
@@ -103,108 +86,59 @@
   
 </div>
 
-  <div class="content">
-    <p><p>Selenium实践</p></p>
-    
-      <a href="https://hurricance.github.io/posts/selenium-practice-1/">Read more...</a>
-    
-  </div>
-</article>
+      <div class="content"><p>Selenium实践</p>
+<h3 id="实践环境">实践环境</h3>
+<ul>
+<li>python: 3.11.0</li>
+<li>Selenium: 4.19.0</li>
+<li>Chrome: 123.0.6312.106</li>
+</ul>
+<h3 id="原理">原理</h3>
+<p>Selenium 运行流程</p>
+<p><img src="./Architecture-of-Selenium-4-1.png" alt="Selenium原理"></p>
+<h3 id="简单用例">简单用例</h3>
+<pre tabindex="0"><code>from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
 
-		
-			<article class="summary">
-  <a href="https://hurricance.github.io/posts/first-post/">
-    <h1 class="title">First Post</h1>
-    
-  </a>
-  
+chrome_driver_path = &#34;./chromedriver.exe&#34;
+service = Service(executable_path=chrome_driver_path)
 
+options = Options()
+/**
+* 设置代理
+*/
+# proxy_server_url = &#34;127.0.0.1:10809&#34;
+# options.add_argument(f&#39;--proxy-server={proxy_server_url}&#39;)
 
+driver = webdriver.Chrome(service=service, options=options)
 
+driver.get(&#39;https://www.baidu.com&#39;)
+print(driver.title)
+driver.implicitly_wait(10)
 
+elem = driver.find_element(By.NAME, &#34;wd&#34;)
+elem.clear()
+elem.send_keys(&#34;pycon&#34;)
+elem.send_keys(Keys.RETURN)
 
+elems = driver.find_elements(By.XPATH, &#34;/html/body/div[3]/div[3]/div[1]/div[3]/div&#34;)
+print(driver.title)
+for elem in elems:
+  print(elem.text)
 
-
-
-
-  
-
-
-<div class="post-meta">
-  <strong>
-    <span>Posted on</span>
-    <time>2024-04-04</time>
-    <span>in</span>
-    
-      <a href="/categories/personal-thoughts">Personal Thoughts</a>
-  </strong>
- <span> • 5 words</span>
- <span> • 1 minute read</span>
-  
-</div>
-
-  <div class="content">
-    <p><p>开通博客了!</p></p>
-    
-      <a href="https://hurricance.github.io/posts/first-post/">Read more...</a>
-    
-  </div>
-</article>
-
-		
-			<article class="summary">
-  <a href="https://hurricance.github.io/posts/software-test-course-1/">
-    <h1 class="title">软件测试课程总结 - 01</h1>
-    
-  </a>
-  
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="post-meta">
-  <strong>
-    <span>Posted on</span>
-    <time>2024-04-04</time>
-    <span>in</span>
-    
-      <a href="/categories/software-test">software-test</a>
-  </strong>
- <span> • 170 words</span>
- <span> • 1 minute read</span>
-  
-    <div>
-      <span>Tags:</span>
-      
-        <a href="/tags/qa-course-summary">QA-Course-Summary</a>
-    </div>
-  
-</div>
-
-  <div class="content">
-    <p><p>关于软件测试的一切</p></p>
-    
-      <a href="https://hurricance.github.io/posts/software-test-course-1/">Read more...</a>
-    
-  </div>
-</article>
-
-		
-		<div>
-  
-  1 of 1
-  
-</div>
-
-	</main>
+driver.quit()
+</code></pre><h3 id="参考资料">参考资料</h3>
+<ul>
+<li><a href="https://www.browserstack.com/selenium">https://www.browserstack.com/selenium</a></li>
+<li><a href="https://selenium-python.readthedocs.io">https://selenium-python.readthedocs.io</a></li>
+<li><a href="https://www.zenrows.com/blog/selenium-proxy">https://www.zenrows.com/blog/selenium-proxy</a></li>
+<li><a href="https://www.zenrows.com/blog/selenium-python-web-scraping#getting-started">https://www.zenrows.com/blog/selenium-python-web-scraping#getting-started</a></li>
+</ul></div>
+    </article>
+  </main>
 
       </div>
       <footer>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>QA-Course-Summary on Hurricance</title>
-    <link>https://hurricance.github.io/categories/qa-course-summary/</link>
+    <link>http://localhost:1313/categories/qa-course-summary/</link>
     <description>Recent content in QA-Course-Summary on Hurricance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://hurricance.github.io/categories/qa-course-summary/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/qa-course-summary/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>软件测试课程总结 - 01</title>
-      <link>https://hurricance.github.io/posts/software-test-course-1/</link>
+      <link>http://localhost:1313/posts/software-test-course-1/</link>
       <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://hurricance.github.io/posts/software-test-course-1/</guid>
+      <guid>http://localhost:1313/posts/software-test-course-1/</guid>
       <description>&lt;p&gt;关于软件测试的一切&lt;/p&gt;</description>
     </item>
   </channel>
