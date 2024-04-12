@@ -6,8 +6,15 @@
     <description>Recent content on Hurricance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hurricance.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测试用例编写</title>
+      <link>https://hurricance.github.io/posts/test-case/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hurricance.github.io/posts/test-case/</guid>
+      <description>&lt;p&gt;写好测试用例&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Selenium实践 - 01</title>
       <link>https://hurricance.github.io/posts/selenium-practice-1/</link>

@@ -6,13 +6,13 @@
     <description>Recent content in Uncategorized on Hurricance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Selenium实践 - 01</title>
-      <link>http://localhost:1313/posts/selenium-practice-1/</link>
-      <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/selenium-practice-1/</guid>
+      <title>Test Case</title>
+      <link>http://localhost:1313/posts/test-case/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/test-case/</guid>
       <description></description>
     </item>
   </channel>
