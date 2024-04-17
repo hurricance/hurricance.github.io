@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content=""
+  />
+  
+    
+      <title>设计模式 - 01 | Hurricance</title>
+    
+  
+  <link rel="stylesheet" href="/css/reset.css"/>
+  <link rel="stylesheet" href="/css/font.css"/>
+  <link rel="stylesheet" href="/css/smigle.css"/>
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+  <body>
+    <div id="root">
+      <header>
+  <div id="brand">
+    <div class="text">
+      <a href="https://hurricance.github.io/"><h1>Hurricance</h1></a>
+      <h3>Just be yourself</h3>
+    </div>
+  </div>
+  <nav>
+    
+      
+        
+        <a href="/"><b>Home</b></a>
+      
+         | 
+        <a href="/about/"><b>About</b></a>
+      
+         | 
+        <a href="/posts/"><b>Posts</b></a>
+      
+         | 
+        <a href="/categories/"><b>Categories</b></a>
+      
+         | 
+        <a href="/tags/"><b>Tags</b></a>
+      
+         | 
+        <a href="/index.xml"><b>RSS</b></a>
+      
+    
+  </nav>
+  <hr />
+</header>
+
+      <div id="content">
+        
+  <main>
+    <article>
+      <h1 class="title">设计模式 - 01</h1>
+      
+      <div class="post-meta">
+  <strong>
+    <span>Posted on</span>
+    <time>2024-04-17</time>
+    <span>in</span>
+    
+      <a href="/categories/design-pattern">design pattern</a>
+  </strong>
+  <span> • 70 words</span>
+  <span> • 1 minute read</span>
+  
+  
+</div>
+
+      <div class="content"><p>设计原则(面向对象)</p>
+<h4 id="设计模式的本质是解决某一类问题可使用的模板-包括">设计模式的本质是解决某一类问题可使用的模板, 包括:</h4>
+<ul>
+<li>创建型(Creational)模式：如何创建对象；</li>
+<li>结构型(Structural )模式：如何实现类或对象的组合；</li>
+<li>行为型(Behavioral)模式：类或对象怎样交互以及怎样分配职责。</li>
+</ul>
+<h4 id="设计原则本质上是为了提高代码可复用性-可维护性-低耦合高内聚">设计原则(本质上是为了提高代码可复用性, 可维护性, 低耦合高内聚)</h4>
+<ul>
+<li>
+<p>单一职责原则(Single Responsibility Principle, SRP)</p>
+<ul>
+<li>类的功能要单一, 如果类内部有多个功能, 修改其中一个功能的代码可能会影响到内部公共模块, 所以引起类内部代码的修改原因只能有一个</li>
+</ul>
+</li>
+<li>
+<p>开闭原则(Open-Closed Principle, OCP)</p>
+<ul>
+<li>开闭原则是总纲, 在设计的时候就要有前瞻性, 避免修改类内部的代码, 派生实现类来拓展功能</li>
+</ul>
+</li>
+<li>
+<p>里氏替换原则(Liskov Substitution Principle, LSP)</p>
+<ul>
+<li>任何基类可以出现的地方，子类一定可以出现, 尽量不要重写父类的方法, 实现开闭原则的关键步骤就是抽象化, 而基类与子类的继承关系就是抽象化的具体实现，所以里氏代换原则是对实现抽象化的具体步骤的规范。</li>
+</ul>
+</li>
+<li>
+<p>接口隔离原则(Interface Segregation Principle, ISP)</p>
+<ul>
+<li>建立单一接口，不要建立庞大臃肿的接口，尽量细化接口，接口中的方法尽量少（有点“接口单一职责”的意思）</li>
+</ul>
+</li>
+<li>
+<p>依赖倒置原则(Dependence  Inversion Principle, DIP)</p>
+<ul>
+<li>面向接口编程, 依赖于接口而不是具体的类, 减少类之间的耦合</li>
+</ul>
+</li>
+<li>
+<p>合成复用原则(Composite Reuse Principle, CRP)</p>
+<ul>
+<li>继承会增加类之间的耦合度, 而且父类的所有字段和方法会被继承, 同时继承也是静态的, 不能在运行时发生改变</li>
+<li>组合可以选取自己所需的东西, 是黑箱复用, 而且组合的对象能在运行时改变, 具有一定的灵活性</li>
+<li>满足 “Is-A” 的关系是才可以使用继承，而组合却是一种 “Has-A”（整体与部分）的关系</li>
+</ul>
+</li>
+<li>
+<p>迪米特法则(Law of Demeter, LoD)</p>
+<ul>
+<li>降低对类的依赖(数量和深度), 使用中介类来进行通信</li>
+<li>最少知道原则, 对于所依赖的类的内部处理细节知道的越少越好, 要求被依赖的类提供现成的方法</li>
+</ul>
+</li>
+</ul></div>
+    </article>
+  </main>
+
+      </div>
+      <footer>
+  <hr />
+  
+    <p id="social">
+      Find me around the web:
+      <br />
+      
+        
+        <a href="https://github.com/hurricance">GitHub</a>
+      
+    </p>
+  
+  <p class="copyright">
+    Copyright © 2024
+    <a href="https://hurricance.github.io/"><strong>hurricance</strong></a>.
+    This work is licensed under the
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> license.
+  </p>
+  <p class="builtWith">
+    Built with
+    <a href="http://www.gohugo.io/">Hugo</a>,
+    using the theme
+    <a href="https://gitlab.com/ian-s-mcb/smigle-hugo-theme">smigle</a>,
+    which was influenced by the theme
+    <a href="https://github.com/sumnerevans/smol">smol</a>.
+  </p>
+</footer>
+
+    </div>
+  </body>
+</html>

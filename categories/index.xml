@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Hurricance</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hurricance.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Design Pattern</title>
+      <link>https://hurricance.github.io/categories/design-pattern/</link>
+      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hurricance.github.io/categories/design-pattern/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Software-Test</title>
       <link>https://hurricance.github.io/categories/software-test/</link>
