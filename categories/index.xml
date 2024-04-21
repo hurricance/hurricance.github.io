@@ -4,28 +4,35 @@
     <title>Categories on Hurricance</title>
     <link>https://hurricance.github.io/categories/</link>
     <description>Recent content in Categories on Hurricance</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hurricance.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test-Method</title>
+      <link>https://hurricance.github.io/categories/test-method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://hurricance.github.io/categories/test-method/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Design Pattern</title>
       <link>https://hurricance.github.io/categories/design-pattern/</link>
-      <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hurricance.github.io/categories/design-pattern/</guid>
       <description></description>
     </item>
     <item>
       <title>Software-Test</title>
       <link>https://hurricance.github.io/categories/software-test/</link>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hurricance.github.io/categories/software-test/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal Thoughts</title>
       <link>https://hurricance.github.io/categories/personal-thoughts/</link>
-      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://hurricance.github.io/categories/personal-thoughts/</guid>
       <description></description>
     </item>
