@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prompt on Hurricance</title>
+    <link>https://hurricance.github.io/tags/prompt/</link>
+    <description>Recent content in Prompt on Hurricance</description>
+    <generator>Hugo 0.125.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://hurricance.github.io/tags/prompt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何写好prompt</title>
+      <link>https://hurricance.github.io/posts/how-to-write-prompt/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hurricance.github.io/posts/how-to-write-prompt/</guid>
+      <description>&lt;p&gt;prompt工程&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,15 @@
     <description>Recent content on Hurricance</description>
     <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://hurricance.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何写好prompt</title>
+      <link>https://hurricance.github.io/posts/how-to-write-prompt/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://hurricance.github.io/posts/how-to-write-prompt/</guid>
+      <description>&lt;p&gt;prompt工程&lt;/p&gt;</description>
+    </item>
     <item>
       <title>性能测试概述</title>
       <link>https://hurricance.github.io/posts/performance-testing/</link>

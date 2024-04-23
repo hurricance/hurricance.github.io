@@ -4,15 +4,15 @@
     <title>Uncategorized on Hurricance</title>
     <link>http://localhost:1313/categories/uncategorized/</link>
     <description>Recent content in Uncategorized on Hurricance</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo 0.125.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/uncategorized/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Case</title>
-      <link>http://localhost:1313/posts/test-case/</link>
-      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/test-case/</guid>
+      <title>How to Write Prompt</title>
+      <link>http://localhost:1313/posts/how-to-write-prompt/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/how-to-write-prompt/</guid>
       <description></description>
     </item>
   </channel>

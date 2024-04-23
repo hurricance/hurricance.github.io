@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content=""
+  />
+  
+    
+      <title>如何写好prompt | Hurricance</title>
+    
+  
+  <link rel="stylesheet" href="/css/reset.css"/>
+  <link rel="stylesheet" href="/css/font.css"/>
+  <link rel="stylesheet" href="/css/smigle.css"/>
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+  <body>
+    <div id="root">
+      <header>
+  <div id="brand">
+    <div class="text">
+      <a href="https://hurricance.github.io/"><h1>Hurricance</h1></a>
+      <h3>Just be yourself</h3>
+    </div>
+  </div>
+  <nav>
+    
+      
+        
+        <a href="/"><b>Home</b></a>
+      
+         | 
+        <a href="/about/"><b>About</b></a>
+      
+         | 
+        <a href="/posts/"><b>Posts</b></a>
+      
+         | 
+        <a href="/categories/"><b>Categories</b></a>
+      
+         | 
+        <a href="/tags/"><b>Tags</b></a>
+      
+         | 
+        <a href="/index.xml"><b>RSS</b></a>
+      
+    
+  </nav>
+  <hr />
+</header>
+
+      <div id="content">
+        
+  <main>
+    <article>
+      <h1 class="title">如何写好prompt</h1>
+      
+      <div class="post-meta">
+  <strong>
+    <span>Posted on</span>
+    <time>2024-04-23</time>
+    <span>in</span>
+    
+      <a href="/categories/llm">LLM</a>
+  </strong>
+  <span> • 194 words</span>
+  <span> • 1 minute read</span>
+  
+  
+    <div>
+      <span>Tags:</span>
+      
+        <a href="/tags/prompt">prompt</a>
+    </div>
+  
+</div>
+
+      <div class="content"><p>prompt工程</p>
+<h4 id="提示词要素">提示词要素</h4>
+<ul>
+<li>上下文</li>
+<li>输入数据</li>
+<li>指令</li>
+<li>输出提示</li>
+</ul>
+<h4 id="编写好的prompt可以让你得到你想要的输出">编写好的prompt可以让你得到你想要的输出</h4>
+<ul>
+<li>编写清晰的指令
+<ul>
+<li>提供具体的问题，不要让gpt猜测你想问什么
+<ul>
+<li>
+<pre tabindex="0"><code>Worse
+Write code to calculate the Fibonacci sequence.
+
+Better
+Write a TypeScript function to efficiently calculate the Fibonacci sequence. Comment the code liberally to explain what each piece does and why it&#39;s written that way.      
+</code></pre></li>
+</ul>
+</li>
+<li>使用SYSTEM来指示GPT的属性（是编程专家等）
+<ul>
+<li>
+<pre tabindex="0"><code>SYSTEM
+When I ask for help to write something, you will reply with a document that contains at least one joke or playful comment in every paragraph.
+
+USER
+Write a thank you note to my steel bolt vendor for getting the delivery in on time and in short notice. This made it possible for us to deliver an important order.
+</code></pre></li>
+</ul>
+</li>
+<li>使用分隔符来表明输出的部分
+<ul>
+<li>
+<pre tabindex="0"><code>USER
+Summarize the text delimited by triple quotes with a haiku.
+
+&#34;&#34;&#34;insert text here&#34;&#34;&#34;
+</code></pre></li>
+</ul>
+</li>
+<li>指明完成该问题的步骤
+<ul>
+<li>
+<pre tabindex="0"><code>SYSTEM
+Use the following step-by-step instructions to respond to user inputs.
+
+Step 1 - The user will provide you with text in triple quotes. Summarize this text in one sentence with a prefix that says &#34;Summary: &#34;.
+
+Step 2 - Translate the summary from Step 1 into Spanish, with a prefix that says &#34;Translation: &#34;.
+
+USER
+&#34;&#34;&#34;insert text here&#34;&#34;&#34;
+</code></pre></li>
+</ul>
+</li>
+<li>提供输入和输出样例，让GPT进行参照</li>
+<li>要求输出的长度</li>
+</ul>
+</li>
+<li>提供参考文本
+<ul>
+<li>输入供GPT参照的文本</li>
+<li>让GPT回答的时候说明参考的文本是哪句</li>
+</ul>
+</li>
+<li>把复杂任务拆分成子任务
+<ul>
+<li>使用缩进来分类</li>
+</ul>
+</li>
+<li>让模型去思考
+<ul>
+<li>让GPT在给出解决方案前先自己评估</li>
+</ul>
+</li>
+<li>使用外部工具</li>
+</ul>
+<h4 id="参考文献">参考文献</h4>
+<ol>
+<li><a href="https://platform.openai.com/docs/guides/prompt-engineering">https://platform.openai.com/docs/guides/prompt-engineering</a></li>
+<li><a href="https://www.promptingguide.ai">https://www.promptingguide.ai</a></li>
+<li><a href="https://guangzhengli.com/blog/zh/gpt-embeddings">https://guangzhengli.com/blog/zh/gpt-embeddings</a></li>
+</ol></div>
+    </article>
+  </main>
+
+      </div>
+      <footer>
+  <hr />
+  
+    <p id="social">
+      Find me around the web:
+      <br />
+      
+        
+        <a href="https://github.com/hurricance">GitHub</a>
+      
+    </p>
+  
+  <p class="copyright">
+    Copyright © 2024
+    <a href="https://hurricance.github.io/"><strong>hurricance</strong></a>.
+    This work is licensed under the
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> license.
+  </p>
+  <p class="builtWith">
+    Built with
+    <a href="http://www.gohugo.io/">Hugo</a>,
+    using the theme
+    <a href="https://gitlab.com/ian-s-mcb/smigle-hugo-theme">smigle</a>,
+    which was influenced by the theme
+    <a href="https://github.com/sumnerevans/smol">smol</a>.
+  </p>
+</footer>
+
+    </div>
+  </body>
+</html>
