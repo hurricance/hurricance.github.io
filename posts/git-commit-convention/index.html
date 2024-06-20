@@ -9,7 +9,7 @@
   />
   
     
-      <title>Posts | Hurricance</title>
+      <title>git commit规范 | Hurricance</title>
     
   
   <link rel="stylesheet" href="/css/reset.css"/>
@@ -62,87 +62,70 @@
 
       <div id="content">
         
-  <main id="archive">
-    <h1>Posts</h1>
+  <main>
+    <article>
+      <h1 class="title">git commit规范</h1>
+      
+      <div class="post-meta">
+  <strong>
+    <span>Posted on</span>
+    <time>2024-06-21</time>
+    <span>in</span>
     
-  <h3>2024</h3>
-  <ul id="postsByDate">
-    
-      <li>
-        <div class="date">
-          Jun 21
-        </div>
-        <div class="title">
-          <a href="/posts/git-commit-convention/">git commit规范</a>
-        </div>
-      </li>
-    
-      <li>
-        <div class="date">
-          Apr 23
-        </div>
-        <div class="title">
-          <a href="/posts/how-to-write-prompt/">如何写好prompt</a>
-        </div>
-      </li>
-    
-      <li>
-        <div class="date">
-          Apr 21
-        </div>
-        <div class="title">
-          <a href="/posts/performance-testing/">性能测试概述</a>
-        </div>
-      </li>
-    
-      <li>
-        <div class="date">
-          Apr 17
-        </div>
-        <div class="title">
-          <a href="/posts/design-pattern-1/">设计模式 - 01</a>
-        </div>
-      </li>
-    
-      <li>
-        <div class="date">
-          Apr 12
-        </div>
-        <div class="title">
-          <a href="/posts/test-case/">测试用例编写</a>
-        </div>
-      </li>
-    
-      <li>
-        <div class="date">
-          Apr 11
-        </div>
-        <div class="title">
-          <a href="/posts/selenium-practice-1/">Selenium实践 - 01</a>
-        </div>
-      </li>
-    
-      <li>
-        <div class="date">
-          Apr 4
-        </div>
-        <div class="title">
-          <a href="/posts/software-test-course-1/">软件测试课程总结 - 01</a>
-        </div>
-      </li>
-    
-      <li>
-        <div class="date">
-          Apr 4
-        </div>
-        <div class="title">
-          <a href="/posts/first-post/">First Post</a>
-        </div>
-      </li>
-    
-  </ul>
+      <a href="/categories/git">git</a>
+  </strong>
+  <span> • 240 words</span>
+  <span> • 1 minute read</span>
+  
+  
+</div>
 
+      <div class="content"><p>commit message通用规范</p>
+<h3 id="场景">场景</h3>
+<p>在进行git commit提交时, 要进行相关说明, 好的说明应言简意赅, 让人快速明白本次提交代码有哪些变动, 有相关的commit message规范来进行参考</p>
+<h3 id="相关内容">相关内容</h3>
+<p>commit message结构</p>
+<pre tabindex="0"><code>&lt;type&gt;[optional scope]: &lt;description&gt;
 
+[optional body]
+
+[optional footer(s)]
+</code></pre><p>例子</p>
+<pre tabindex="0"><code>fix(middleware): ensure Range headers adhere more closely to RFC 2616
+
+Add one new dependency, use `range-parser` (Express dependency) to compute
+range. It is more well-tested in the wild.
+
+Closes #2310
+</code></pre><p>type类型:</p>
+<ul>
+<li>feat</li>
+<li>fix</li>
+<li>perf</li>
+<li>docs</li>
+<li>style</li>
+<li>refactor</li>
+<li>test</li>
+<li>chore</li>
+</ul>
+<p>scope类型:</p>
+<ul>
+<li>init</li>
+<li>runner</li>
+<li>watcher</li>
+<li>config</li>
+<li>web-server</li>
+<li>proxy</li>
+<li>etc</li>
+</ul>
+<p>subject里使用一般现在时, 要清晰表明本次修改内容或目的</p>
+<p>footer可以加上解决的issue, 或者是BREAKING CHANGE</p>
+<h3 id="参考资料">参考资料</h3>
+<ul>
+<li><a href="https://karma-runner.github.io/6.4/dev/git-commit-msg.html">https://karma-runner.github.io/6.4/dev/git-commit-msg.html</a></li>
+<li><a href="https://www.conventionalcommits.org/en/v1.0.0/">https://www.conventionalcommits.org/en/v1.0.0/</a></li>
+</ul></div>
+    </article>
   </main>
 
       </div>
